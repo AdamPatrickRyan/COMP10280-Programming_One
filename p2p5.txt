@@ -1,0 +1,15 @@
+##------------------Practical 2 HW1----------------##
+## 
+##User:     Aryan
+##DC:       2020-09-29
+##DLM:      2020-09-29
+##MC:       COMP10280
+##SD:       Slice of strings Q5
+##
+##------------------Practical 2 HW1----------------## 
+
+Q5a. When x and y are the same, seg is blank
+Q5b. When x>y, seg is blank.
+Q5c. When x is omitted (i.e. seg=animals[:y]) it returns all characters up to the value entered in y (up to the length of the string) [0 indexed]
+Q5d. When y is omitted, it 'drops' that many characters from the left-most side of the string. I.e. returns all characters after the xth character in the string.
+Q5e. When x and y are omitted, it prints the string.
